@@ -10,12 +10,15 @@ from datetime import datetime
 
 
 class Config:
-    DEVELOPER_KEY = "AIzaSyDzmWRw-MXUk2QzU4FuzIjBUQMu6yB0-tA"  # your youtube developer id
+    
+    DEVELOPER_KEY = "AIzaSyDzmWRw-AIzaSyCcCrki20CHFaTlD_iwqnWT0Cj7wR7RfyI-tA"  # your youtube developer id
+    # DEVELOPER_KEY = "AIzaSyDzmWRw-MXUk2QzU4FuzIjBUQMu6yB0-tA"  #AIzaSyDzmWRw-MXUk2QzU4FuzIjBUQMu6yB0-tA
     OPENPOSE_BASE_DIR = "/mnt/work/work/openpose/"
     OPENPOSE_BIN_PATH = "build/examples/openpose/openpose.bin"
 
 
 class TEDConfig(Config):
+    
     YOUTUBE_CHANNEL_ID = "UCAuUUnT6oDeKwE6v1NGQxug"
     WORK_PATH = './Youtube_Dataset'
     CLIP_PATH = WORK_PATH + "/clip_ted"
