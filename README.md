@@ -1,5 +1,9 @@
 # Youtube Gesture Dataset
 
+https://github.com/youngwoo-yoon/youtube-gesture-dataset
+
+mkdir -p Youtube_Dataset/videos_ted
+
 This repository contains scripts to build *Youtube Gesture Dataset*.
 You can download Youtube videos and transcripts, divide the videos into scenes, and extract human poses.
 Please see the project page and paper for the details.  
